@@ -1,0 +1,54 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,700";
+@import "http://fonts.googleapis.com/css?family=Lato:400,700";
+
+.nav-tabs > li, .nav-pills > li {
+  float:none;
+  display:inline-block;
+  *display:inline;
+   zoom:1;
+}
+
+html, body{
+height: 100%;
+}
+body { 
+    background-image: url('../images/background.jpg') ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+}
+
+.tab-pane {
+background: #ffffff;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+}
+
+.nav > li.active > a{
+	color: #FF0000 !important;
+	font-weight: bold;
+}
+
+.experience {
+text-align: justify;
+padding-top: 2em;
+border-bottom: 1px solid #f1f1f1;
+}
+
+h1, h2, h4, h5 {
+	font-weight: bolder;
+}
+footer {
+    background: #ffffff;
+    margin-top: 3em;
+    padding: 2em 0;
+    opacity: .8;
+    text-align: center;
+}
