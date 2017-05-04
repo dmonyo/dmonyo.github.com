@@ -1,6 +1,10 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:400,700";
 @import "http://fonts.googleapis.com/css?family=Lato:400,700";
 
+.header{
+	padding-bottom: 3em;
+}
+
 .nav-tabs > li, .nav-pills > li {
   float:none;
   display:inline-block;
@@ -24,11 +28,22 @@ body {
 
 }
 
+.fa{
+	color: navy;
+}
+
 .tab-pane {
-background: #ffffff;
-padding-left: 40px;
-padding-right: 40px;
-padding-bottom: 40px;
+	background: #ffffff;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+
+}
+
+.nav > li > a {
+	text-transform: uppercase;
+	color: navy;
+
 }
 
 .nav > li.active > a{
@@ -42,8 +57,13 @@ padding-top: 2em;
 border-bottom: 1px solid #f1f1f1;
 }
 
-h1, h2, h4, h5 {
+.contact{
+	padding-top: 3em;
+}
+
+h1, h2, h3, h4, h5 {
 	font-weight: bolder;
+	color: navy;
 }
 footer {
     background: #ffffff;
